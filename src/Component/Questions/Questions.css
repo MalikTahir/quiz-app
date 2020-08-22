@@ -1,0 +1,49 @@
+.ql{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ql__score{
+    display: flex;
+    flex-direction: row;
+}
+.ql__q{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: max-content;
+    background-color:#99d17bb2;
+    border-radius: 25px;
+    padding: 0px;
+}
+.ql__card{
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+.ql__statement{
+    border: 3px solid #319999;
+    border-radius: 25px;
+    height: max-content;
+    padding: 12px;
+    background-color: burlywood;
+}
+.ql__options{
+    border: solid 2px burlywood;
+    border-radius: 25px; 
+    padding: 12px;
+    height: max-content;
+    width: auto;
+    background-color: white;
+}
+.ql__options::selection{
+    border: solid 2px red;
+    border-radius: 25px; 
+    padding: 12px;
+    height: max-content;
+    width: auto;
+    background-color: white;
+}

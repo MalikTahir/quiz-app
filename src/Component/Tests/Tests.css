@@ -1,0 +1,13 @@
+.tests{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tests__list{
+   
+}
+.tests__testcard{
+    
+    background-color: aqua;
+    margin: 10px;
+}
